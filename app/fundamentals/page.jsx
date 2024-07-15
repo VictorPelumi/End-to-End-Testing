@@ -66,10 +66,10 @@ const items = [
 export default function FundamentalsPage(){
     return (
         <main className={styles.main}>
-            <h1 className={styles.header}>
+            <h1 data-test="fundamentals-header" className={styles.header}>
                 Testing Fundamentals
             </h1>
-            <ItemsAccordion items={items} />
+            <ItemsAccordion items={items}  />
         </main>
     )
 }
